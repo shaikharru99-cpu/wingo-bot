@@ -5,7 +5,8 @@ from datetime import datetime
 import pytz
 
 # ================== BOT TOKEN ==================
-TOKEN = "8533506276:AAEwW3k2fLVKMycFnzsgqJ5xEEAqpAq_ZS8"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 # ===============================================
 
 # -------- CONSTANTS --------
